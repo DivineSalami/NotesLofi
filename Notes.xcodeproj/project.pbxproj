@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0662BDA2631FB65006EF54C /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0662BD92631FB65006EF54C /* EntryViewController.swift */; };
 		A06897E9262773CE00F950E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06897E8262773CE00F950E6 /* AppDelegate.swift */; };
 		A06897EB262773CE00F950E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06897EA262773CE00F950E6 /* SceneDelegate.swift */; };
 		A06897ED262773CE00F950E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06897EC262773CE00F950E6 /* ViewController.swift */; };
 		A06897F0262773CE00F950E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06897EE262773CE00F950E6 /* Main.storyboard */; };
 		A06897F2262773CF00F950E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06897F1262773CF00F950E6 /* Assets.xcassets */; };
 		A06897F5262773CF00F950E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06897F3262773CF00F950E6 /* LaunchScreen.storyboard */; };
+		A06897FE2627744100F950E6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06897FD2627744100F950E6 /* NoteViewController.swift */; };
+		A07C9235264D9AE6008BF717 /* bonk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C9234264D9AE6008BF717 /* bonk.mp3 */; };
+		A07C9238264DA616008BF717 /* milk2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C9237264DA616008BF717 /* milk2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0662BD92631FB65006EF54C /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		A06897E5262773CE00F950E6 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06897E8262773CE00F950E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06897EA262773CE00F950E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		A06897F1262773CF00F950E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06897F4262773CF00F950E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06897F6262773CF00F950E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06897FD2627744100F950E6 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		A07C9232264D96CC008BF717 /* milk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = milk.mp4; sourceTree = "<group>"; };
+		A07C9234264D9AE6008BF717 /* bonk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonk.mp3; sourceTree = "<group>"; };
+		A07C9237264DA616008BF717 /* milk2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = milk2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,14 @@
 				A06897EA262773CE00F950E6 /* SceneDelegate.swift */,
 				A06897EC262773CE00F950E6 /* ViewController.swift */,
 				A06897EE262773CE00F950E6 /* Main.storyboard */,
+				A07C9237264DA616008BF717 /* milk2.mp3 */,
+				A07C9232264D96CC008BF717 /* milk.mp4 */,
+				A07C9234264D9AE6008BF717 /* bonk.mp3 */,
 				A06897F1262773CF00F950E6 /* Assets.xcassets */,
 				A06897F3262773CF00F950E6 /* LaunchScreen.storyboard */,
 				A06897F6262773CF00F950E6 /* Info.plist */,
+				A06897FD2627744100F950E6 /* NoteViewController.swift */,
+				A0662BD92631FB65006EF54C /* EntryViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -124,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07C9235264D9AE6008BF717 /* bonk.mp3 in Resources */,
 				A06897F5262773CF00F950E6 /* LaunchScreen.storyboard in Resources */,
+				A07C9238264DA616008BF717 /* milk2.mp3 in Resources */,
 				A06897F2262773CF00F950E6 /* Assets.xcassets in Resources */,
 				A06897F0262773CE00F950E6 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06897FE2627744100F950E6 /* NoteViewController.swift in Sources */,
+				A0662BDA2631FB65006EF54C /* EntryViewController.swift in Sources */,
 				A06897ED262773CE00F950E6 /* ViewController.swift in Sources */,
 				A06897E9262773CE00F950E6 /* AppDelegate.swift in Sources */,
 				A06897EB262773CE00F950E6 /* SceneDelegate.swift in Sources */,
